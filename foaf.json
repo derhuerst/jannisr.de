@@ -1,0 +1,22 @@
+{
+	"@context": {
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"rdf": "http://www.w3.org/2000/01/rdf-schema#",
+	},
+	"@id": "/",
+	"@type": "foaf:Person",
+	"foaf:name": "Jannis R",
+	"foaf:firstName": "Jannis",
+	"foaf:gender": "he/his",
+	"foaf:status": "By writing open-source software, Jannis tries to make urban infrastructure more accessible.",
+	"foaf:img": {
+		"rdf:resource": "/profile.jpg"
+	},
+	"foaf:account": [{
+		"accountName": "derhuerst",
+		"accountServiceHomepage": "https://github.com/"
+	}, {
+		"accountName": "derhuerst",
+		"accountServiceHomepage": "https://twitter.com/"
+	}]
+}
